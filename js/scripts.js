@@ -2,7 +2,7 @@ const SIZES = [
   { size: "small", price: 5.00},
   { size: "medium", price: 10.00},
   { size: "large", price: 12.00},
-  { size: "x-large", price: 15.00}
+  { size: "xlarge", price: 15.00}
 ];
 
 const TOPPINGS = [
@@ -19,5 +19,10 @@ function Pizza(size, toppings) {
 
 Pizza.prototype.getCost = function() {
   let cost = 0;
-  
+  for (let i = 0; i < SIZES.length; i ++) {
+  const currentSize = SIZES[i].size;
+  if (currentSize === this.size);
+    cost = SIZES[i].price;
+  }
+  return cost;
 }
