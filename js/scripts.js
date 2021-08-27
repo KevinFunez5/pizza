@@ -8,11 +8,9 @@ const SIZES = [
 
 const TOPPINGS = [
   { name: "pepperoni", price: 1.00},
-  { name: "jalapenos", price: 1.00},
-  { name: "mushrooms", price: 1.00},
-  { name: "peppers", price: 1.00},
-  { name: "bacon", price: 1.00},
-  { name: "pineapple", price: 1.00}
+  { name: "sausage", price: 1.00},
+  { name: "pineapple", price: 1.00},
+  { name: "jalapenos", price: 1.00}
 ];
 function Pizza(size, toppings) {
   this.size = size;
