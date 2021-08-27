@@ -15,4 +15,9 @@ const TOPPINGS = [
 function Pizza(size, toppings) {
   this.size = size;
   this.toppings = toppings;
+};
+
+Pizza.prototype.getCost = function() {
+  let cost = 0;
+  
 }
