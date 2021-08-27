@@ -22,8 +22,24 @@
       <option value="3">Large</option>
       <option value="4">X-Large</option>
     </select>
+
+    <select class="form-control" id="toppings">
+      <option value="1">Peperoni</option>
+      <option value="2">Sausage</option>
+      <option value="3">Pineapple</option>
+      <option value="4">Jalapenos</option>
+    </select> 
     <!-- const size = $("#size").val();
     This is how to read value -->
+
+    <div class="row">
+      <div class="col">
+          <span>Total: </span><span id="total"></span>
+      </div>
+      <div class="col">
+          <button class="btn btn-primary" id="calculate">Calculate Costs</button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
