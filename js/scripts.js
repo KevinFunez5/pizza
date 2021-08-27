@@ -11,3 +11,8 @@ const TOPPINGS = [
   { size: "pineapple", price: 1.00},
   { size: "jalapenos", price: 1.00}
 ];
+
+function Pizza(size, toppings) {
+  this.size = size;
+  this.toppings = toppings;
+}
