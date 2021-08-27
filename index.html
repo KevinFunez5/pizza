@@ -25,15 +25,28 @@
     </select>
 
     <h3>Toppings</h3>
-    <select class="form-control" id="toppings">
-      <option value="peperoni">Peperoni</option>
-      <option value="sausage">Sausage</option>
-      <option value="pineapple">Pineapple</option>
-      <option value="jalapenos">Jalapenos</option>
-    </select> 
-    <!-- const size = $("#size").val();
-    This is how to read value -->
-
+    <h3>Toppings</h3>
+    <div class="form-check mt-3">
+        <input class="form-check-input" name="toppings[]" type="checkbox" value="pepperoni" id="pepperoni" />
+        <label class="form-check-label" for="pepperoni">Pepperoni</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" name="toppings[]" type="checkbox" value="jalapenos" id="jalapenos" />
+        <label class="form-check-label" for="jalapenos">Jalapenos</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" name="toppings[]" type="checkbox" value="mushrooms" id="mushrooms" />
+        <label class="form-check-label" for="mushrooms">Mushrooms</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" name="toppings[]" type="checkbox" value="peppers" id="peppers" />
+      <label class="form-check-label" for="peppers">Peppers</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" name="toppings[]" type="checkbox" value="bacon" id="bacon" />
+        <label class="form-check-label" for="bacon">Bacon</label>
+    </div>
+</div>
     <div class="row">
       <div class="col">
           <span>Total: </span><span id="total"></span>
