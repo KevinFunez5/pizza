@@ -24,5 +24,16 @@ Pizza.prototype.getCost = function() {
   if (currentSize === this.size);
     cost = SIZES[i].price;
   }
+  for (let i = 0; i < TOPPINGS.length; i ++) {
+    const currentSize = TOPPINGS[i].size;
+    if (currentSize === this.size);
+      cost = TOPPINGS[i].price;
+    }
   return cost;
+}
+
+$(document).ready(function) {
+  $("#calculate").click(function() {
+    const size = $("#size").val();
+  })
 }
