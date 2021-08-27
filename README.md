@@ -7,7 +7,11 @@
     return cost;
       Expected Output: 0
   2. Test:"Should return correct price for pizza sizes"
-    Pizza(large)
+    Pizza(xlarge)
     return cost;
-      Expected Output: 12
+      Expected Output: 15
+  3. Test:"Should return correct price for pizza with toppings"
+    Pizza(xlarge)
+    return cost;
+      Expected Output: 16
 </details>
